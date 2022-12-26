@@ -14,11 +14,14 @@
       .pravo {
         float: right;
       }
+      .banner {
+        margin-top: 50%;
+      }
     </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Капибара</title>
+    <title>Символы</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,6 +35,7 @@
     ></script>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text.css" href="pon.css" />
   </head>
   <body background="100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -57,15 +61,18 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Культ.html">Культ</a>
+              <a class="nav-link" href="cult.html">Культ</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="Фото капибар.html">Фото капибар</a>
+              <a class="nav-link" href="photo.html">Фото капибар</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Simvols.html">Символы</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle active"
+                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -75,22 +82,20 @@
                 Виды
               </a>
               <ul
-                class="dropdown-menu dropdown-menu-dark active"
+                class="dropdown-menu dropdown-menu-dark"
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <a class="dropdown-item" href="Капибара.html">Капибара</a>
+                  <a class="dropdown-item" href="capybara.html">Капибара</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="Малая капибара.html"
+                  <a class="dropdown-item" href="smallCapybara.html"
                     >Малая капибара</a
                   >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="Вымершие виды.html"
-                    >Вымершие виды</a
-                  >
+                  <a class="dropdown-item" href="Dead.html">Вымершие виды</a>
                 </li>
               </ul>
             </li>
@@ -103,5 +108,29 @@
         </div>
       </div>
     </nav>
+    <div class="container text-center">
+      <h1 class="my-4"><b>Символы культа капибар:</b></h1>
+      <h2>Флаг</h2>
+      <img src="flag.jfif" alt="flag" class="rounded-img my-4" width="80%" />
+      <h2 class="my-4">Гимн</h2>
+      <img src="ilia.jfif" alt="capybara" class="rounded-img" width="40%" />
+      <br />
+      <audio class="my-4" src="gimn.mp3" controls>полуводный</audio>
+
+      <h2>Капибарь Капьев (Революционер, свергнувший власть в 17вв по КК)</h2>
+      <img
+        src="capibar.jfif"
+        class="rounded-img my-4"
+        alt="capibara"
+        width="60%"
+      />
+    </div>
+    <img
+      src="rastianytaia.jfif"
+      alt="banner"
+      class="banner"
+      height="300"
+      width="100%"
+    />
   </body>
 </html>
